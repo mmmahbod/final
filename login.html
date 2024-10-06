@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farsi-SCM</title>
+
+    <link rel="stylesheet" href="styles/final-style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&family=Noto+Naskh+Arabic:wght@400..700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="header">
+        <a href="index.html"><span class="esm">شرکت زنجیره تامین فارسی</span></a>
+    </div>
+    <ul>
+        <li><a href="index.html">خانه</a></li>
+        <li><a href="services.html">خدمات</a></li>
+        <li><a href="aboutus.html">درباره ما </a></li>
+        <li><a href="contactus.html">تماس با ما</a></li>
+    </ul>
+
+   <p class="mozoo">ورود</p>
+
+    <div class="formholder">
+    <form
+    action="back_end.php"
+    target="_blank"
+    method="get"
+    autocomplete="on">
+
+    <fieldset>
+      <legend>اطلاعات شخصی</legend>
+    <table>
+        <tr>
+            <td>
+
+    <label for="fname">نام</label><br>
+    <input type="text" id="fname" name="fname" required placeholder="نام">
+    <br>
+
+            </td>
+            <td>
+
+    <label for="lname">نام خانوادگی</label><br>
+    <input type="text" id="lname" name="lname" required placeholder="نام خانوادگی">
+    <br>
+
+            </td>
+        </tr>
+
+    </table>
+
+
+    </fieldset>
+    <br>
+
+    <fieldset>
+        <legend>اطلاعات کاربری</legend>
+    <table>
+        <tr>
+            <td>
+
+    <label for="email">ایمیل</label><br>
+    <input type="email" id="email" name="email" placeholder="exmp@email.com">
+    <br>
+
+            </td>
+            <td>
+
+    <label for="pass1">گذرواژه</label><br>
+    <input type="password" id="pass1" name="pass1" minlength="7" required>
+     <br>
+
+            </td>
+        </tr>
+       
+    </table>
+    <br>  
+    <input type="submit" value="ورود">
+
+    </fieldset>
+
+    </form>
+    </div>
+</body>
+</html>
